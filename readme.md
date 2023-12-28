@@ -1,3 +1,5 @@
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=265073&height=120&section=header"/>
+
 <p align="center">
   <h1 align="center"><a href="https://explorerfood.netlify.app/">ExplorerFood - Rocketseat Explorer :rocket: </a></h1>
 </p>
@@ -228,3 +230,6 @@ para criar um usurário administrador, basta fazer uma requisição em /users/, 
 ```bash
 /purchases/:id
 ```
+
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=265073&height=120&section=footer"/>
