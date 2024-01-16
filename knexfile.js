@@ -1,23 +1,35 @@
-const path = require('path');
+const path = require("path")
 
 module.exports = {
   development: {
-    client: 'sqlite3',
+    client: "pg",
     connection: {
-      filename: path.resolve(__dirname, 'src', 'database', 'database.db'),
+      host: "tuffi.db.elephantsql.com",
+      port: "5432",
+      user: "gymkwbzb",
+      password: "aHdquoEazZNpbXEl1LVEI1C8-yKiG3tq",
+      database: "gymkwbzb",
+      ssl: { rejectUnauthorized: false },
     },
     pool: {
-      afterCreate: (conn, cb) => conn.run('PRAGMA foreign_keys = ON', cb),
+      afterCreate: (conn, cb) => {
+        conn.query("SET CONSTRAINTS ALL DEFERRED;", function (err) {
+          if (err) {
+            console.error("Erro durante afterCreate:", err)
+          }
+          cb(err, conn)
+        })
+      },
     },
     migrations: {
       directory: path.resolve(
         __dirname,
-        'src',
-        'database',
-        'knex',
-        'migrations'
+        "src",
+        "database",
+        "knex",
+        "migrations"
       ),
     },
     useNullAsDefault: true,
   },
-};
+}
