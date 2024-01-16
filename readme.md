@@ -55,7 +55,7 @@ Aqui algumas das tecs utilizadas no projeto:
 
 - `Node.js`
 - `Express`
-- `SQLite`
+- `Postgre`
 - `Knex.js`
 - `Autenticação`
 - `JWT`
@@ -101,6 +101,13 @@ $ npm run dev
 # No BackEnd insira uma porta e um secret no arquivo .env vazio
   AUTH_SECRET=
   PORT=
+
+# Aqui pode ser feita a configuraçao do banco POSTGRE
+  DB_HOST=
+  DB_PORT=
+  DB_USER=
+  DB_PASS=
+  DB_NAME=
 
 # Faça a instalação das dependencias
 $ npm install
