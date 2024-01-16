@@ -1,9 +1,11 @@
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=265073&height=120&section=header"/>
+
 <p align="center">
   <h1 align="center"><a href="https://explorerfood.netlify.app/">ExplorerFood - Rocketseat Explorer :rocket: </a></h1>
 </p>
 
 <p align="center">
-  <img width="550" height="99" src="https://user-images.githubusercontent.com/106932234/204160165-1936c0db-539f-4a11-bf5e-1f3d3f789896.png">
+  <img width="400" height="72" src="https://user-images.githubusercontent.com/106932234/204160165-1936c0db-539f-4a11-bf5e-1f3d3f789896.png">
 </p>
 
 Bem-vindo ao ExplorerFood, o projeto final do curso Rocketseat Explorer.
@@ -228,3 +230,6 @@ para criar um usurário administrador, basta fazer uma requisição em /users/, 
 ```bash
 /purchases/:id
 ```
+
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=265073&height=120&section=footer"/>
