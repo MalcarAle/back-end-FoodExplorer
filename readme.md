@@ -76,7 +76,9 @@ Aqui algumas das tecs utilizadas no projeto:
 Clone o projeto para o local desejado em seu computador.
 
 ````bash
-$ git clone git@github.com:andreviapiana/ExplorerFood.git
+$ git clone git@github.com:MalcarAle/front-end-FoodExplorer.git
+$ git clone git@github.com:MalcarAle/back-end-FoodExplorer.git
+
 
 
 #### 💻 Executando o FrontEnd
